@@ -2,6 +2,14 @@
 
 Демонстраційний додаток для [yevgen-grytsay/flux-multibranch-multienv-example](https://github.com/yevgen-grytsay/flux-multibranch-multienv-example).
 
+## Example #1
+
+Гілки `main` та `dev`.
+
+## Example #2
+
+Гілки `app-prod` та `app-dev`.
+
 ## Resources
 
 - [kustomization: `images`](https://kubectl.docs.kubernetes.io/references/kustomize/kustomization/images/)
