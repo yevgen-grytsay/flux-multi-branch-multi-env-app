@@ -3,6 +3,9 @@ kind: Kustomization
 namespace: hello-app
 resources:
   - ../app
+images:
+- name: gcr.io/google-samples/hello-app
+  newTag: "2.0"
 patches:
   - path: service.yaml
     target:
